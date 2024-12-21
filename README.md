@@ -17,3 +17,32 @@ Bioinformatics software defect analysis：Are we there yet?
 4. Code
     * C++：插件
     * R：sonarR包
+
+## Usage
+### R
+1. Clone this repository or download the source code.
+
+   ```bash
+   git clone https://github.com/paulospx/sonarR.git
+   ```
+
+2. Navigate to the project directory.
+
+   ```bash
+   cd sonarR
+   ```
+
+3. Install the required dependencies.
+
+   ```bash
+   Rscript -e 'install.packages("data.table")'
+   Rscript -e 'install.packages("lintr")'
+   Rscript -e 'install.packages("devtools")'
+   Rscript -e 'install.packages("roxygen2")'
+   ```
+   
+4. 在 R 控制台或 RStudio 中启动 R，并加载 sonarR 包。
+
+   ```R
+   devtools::load_all(".")
+   ```
