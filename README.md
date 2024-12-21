@@ -19,7 +19,7 @@ Bioinformatics software defect analysis：Are we there yet?
     * R：sonarR包
 
 ## Usage
-### R
+### R-based
 1. Clone this repository or download the source code.
 
    ```bash
@@ -64,3 +64,7 @@ Bioinformatics software defect analysis：Are we there yet?
       -  https://lintr.r-lib.org/reference/linters.html
    * JSON
       - https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+
+
+### Python-based
+基于SonarQube进行分析
