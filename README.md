@@ -2,8 +2,11 @@
 
 Bioinformatics software defect analysis：Are we there yet?
 
-## 目录
+## 主要文件
 
-1. Bioinformatics Software:
-   * 放置生信软件的源代码
+1. Bioinformatics Software
+   * C++
+     放置基于C/C++开发的生信软件源代码
+   * Python
+   * R
 3. 
