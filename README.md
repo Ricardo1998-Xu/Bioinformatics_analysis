@@ -63,7 +63,7 @@ Bioinformatics software defect analysis：Are we there yet?
 
 8. It uses the following mapping to adjust the data to SonarQube. 
 Linting Rules: 
--  https://lintr.r-lib.org/reference/linters.html
+   -  https://lintr.r-lib.org/reference/linters.html
 
 9. 通过`Code/sonarR/R/updated_result.json`文件修改`result.json`格式，使其能够被SonarQube读取。
-- https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+   - https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
