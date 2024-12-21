@@ -53,17 +53,14 @@ Bioinformatics software defect analysis：Are we there yet?
    devtools::load_all(".")
    ```
 
-6. Run the scanner on your R project directory.
+6. Run the scanner on your R project directory. The tool will scan your R code in the `Bioinformatics Software/R/cellTree` folder and generate a JSON report named `result.json`.
 
    ```R
    sonarR::sonarScan(dir="Bioinformatics Software/R/cellTree",outFile = "result.json")
    ```
 
-7. The tool will scan your R code in the `Bioinformatics Software/R/cellTree` folder and generate a JSON report named `result.json`.
-
-8. It uses the following mapping to adjust the data to SonarQube. 
-Linting Rules: 
-   -  https://lintr.r-lib.org/reference/linters.html
-
-9. 通过`Code/sonarR/R/updated_result.json`文件修改`result.json`格式，使其能够被SonarQube读取。
-   - https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+7. 通过`Code/sonarR/R/updated_result.json`文件修改`result.json`格式，使其能够被SonarQube读取。
+   * Linting Rules: 
+      -  https://lintr.r-lib.org/reference/linters.html
+   * JSON
+      - https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
