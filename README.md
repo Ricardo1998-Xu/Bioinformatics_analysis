@@ -17,6 +17,8 @@ Bioinformatics software defect analysis：Are we there yet?
 4. Code
     * C++：sonar-cxx-plugin-2.1.3.850.jar
     * R：sonarR包
+5. Results.xlsx: 生信软件的检测结果
+6. Developer's Information.xlsx： 软件开发人员的相关信息
 
 ## Usage
 ### R-based
