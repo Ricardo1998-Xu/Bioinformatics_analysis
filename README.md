@@ -26,13 +26,13 @@ Bioinformatics software defect analysis：Are we there yet?
 1. Clone this repository or download the source code.
 
    ```bash
-   git clone https://github.com/paulospx/sonarR.git
+   git clone https://github.com/Ricardo1998-Xu/Bioinformatics_analysis.git
    ```
 
 2. Navigate to the project directory.
 
    ```bash
-   cd sonarR
+   cd Code/sonarR
    ```
 
 3. Install the required dependencies.
@@ -47,7 +47,7 @@ Bioinformatics software defect analysis：Are we there yet?
 4. 在 R 控制台或 RStudio 中启动 R，并切换至sonarR目录。
 
    ```R
-   setwd("sonarR")
+   setwd("Code/sonarR")
    ```
    
 5. 加载 sonarR 包。
@@ -132,3 +132,9 @@ Bioinformatics software defect analysis：Are we there yet?
       sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
       ```
       注意将sonar.projectKey 替换为您的项目密钥，sonar.token 替换为您的令牌。
+
+
+## 所使用的版本
+* R 4.4.1
+* SonarQube 10.6.0.92116
+* c/c++ plugin 2.1.3.850
