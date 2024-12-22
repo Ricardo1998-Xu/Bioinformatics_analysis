@@ -1,0 +1,1367 @@
+"rules": [
+    {
+        "name": "indentation_linter",
+        "id": "rule1",
+        "description": "indentation_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "absolute_path_linter",
+        "id": "rule2",
+        "description": "absolute_path_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "HIGH"
+            }
+        ]
+    },
+    {
+        "name": "nonportable_path_linter",
+        "id": "rule3",
+        "description": "nonportable_path_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "HIGH"
+            }
+        ]
+    },
+    {
+        "name": "pipe_continuation_linter",
+        "id": "rule4",
+        "description": "pipe_continuation_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "assignment_linter",
+        "id": "rule5",
+        "description": "assignment_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "camel_case_linter",
+        "id": "rule6",
+        "description": "camel_case_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "closed_curly_linter",
+        "id": "rule7",
+        "description": "closed_curly_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "commas_linter",
+        "id": "rule8",
+        "description": "commas_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "commented_code_linter",
+        "id": "rule9",
+        "description": "commented_code_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "cyclocomp_linter",
+        "id": "rule10",
+        "description": "cyclocomp_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "HIGH"
+            }
+        ]
+    },
+    {
+        "name": "equals_na_linter",
+        "id": "rule11",
+        "description": "equals_na_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "extraction_operator_linter",
+        "id": "rule12",
+        "description": "extraction_operator_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "function_left_parentheses_linter",
+        "id": "rule13",
+        "description": "function_left_parentheses_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "implicit_integer_linter",
+        "id": "rule14",
+        "description": "implicit_integer_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "infix_spaces_linter",
+        "id": "rule15",
+        "description": "infix_spaces_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "line_length_linter",
+        "id": "rule16",
+        "description": "line_length_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "no_tab_linter",
+        "id": "rule17",
+        "description": "no_tab_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "object_length_linter",
+        "id": "rule18",
+        "description": "object_length_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "object_name_linter",
+        "id": "rule19",
+        "description": "object_linter_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "open_curly_linter",
+        "id": "rule20",
+        "description": "open_curly_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "paren_brace_linter",
+        "id": "rule21",
+        "description": "paren_brace_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "semicolon_terminator_linter",
+        "id": "rule22",
+        "description": "semicolon_terminator_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "seq_linter",
+        "id": "rule23",
+        "description": "seq_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "single_quotes_linter",
+        "id": "rule24",
+        "description": "single_quotes_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "spaces_inside_linter",
+        "id": "rule25",
+        "description": "spaces_inside_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "spaces_left_parentheses_linter",
+        "id": "rule26",
+        "description": "spaces_left_parentheses_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "todo_comment_linter",
+        "id": "rule27",
+        "description": "todo_comment_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "RELIABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "trailing_blank_lines_linter",
+        "id": "rule28",
+        "description": "trailing_blank_lines_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "trailing_whitespace_linter",
+        "id": "rule29",
+        "description": "trailing_whitespace_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "T_and_F_symbol_linter",
+        "id": "rule30",
+        "description": "T_and_F_symbol_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "undesirable_function_linter",
+        "id": "rule31",
+        "description": "undesirable_function_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "undesirable_operator_linter",
+        "id": "rule32",
+        "description": "undesirable_operator_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "unneeded_concatenation_linter",
+        "id": "rule33",
+        "description": "unneeded_concatenation_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "yoda_test_linter",
+        "id": "rule105",
+        "description": "yoda_test_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "LOW"
+            }
+        ]
+    },
+    {
+        "name": "any_duplicated_linter",
+        "id": "rule35",
+        "description": "any_duplicated_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "any_is_na_linter",
+        "id": "rule36",
+        "description": "any_is_na_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "backport_linter",
+        "id": "rule37",
+        "description": "backport_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "boolean_arithmetic_linter",
+        "id": "rule38",
+        "description": "boolean_arithmetic_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "brace_linter",
+        "id": "rule39",
+        "description": "brace_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "class_equals_linter",
+        "id": "rule40",
+        "description": "class_equals_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "condition_message_linter",
+        "id": "rule41",
+        "description": "condition_message_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "conjunct_test_linter",
+        "id": "rule42",
+        "description": "conjunct_test_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "consecutive_assertion_linter",
+        "id": "rule43",
+        "description": "consecutive_assertion_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "duplicate_argument_linter",
+        "id": "rule44",
+        "description": "duplicate_argument_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "empty_assignment_linter",
+        "id": "rule45",
+        "description": "empty_assignment_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_comparison_linter",
+        "id": "rule46",
+        "description": "expect_comparison_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_identical_linter",
+        "id": "rule47",
+        "description": "expect_identical_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_length_linter",
+        "id": "rule48",
+        "description": "expect_length_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_linterd_linter",
+        "id": "expect_linterd_linter",
+        "description": "expect_linterd_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_not_linter",
+        "id": "rule50",
+        "description": "expect_not_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_null_linter",
+        "id": "rule51",
+        "description": "expect_null_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_s3_class_linter",
+        "id": "rule52",
+        "description": "expect_s3_class_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_s4_class_linter",
+        "id": "rule53",
+        "description": "expect_s4_class_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_true_false_linter",
+        "id": "rule54",
+        "description": "expect_true_false_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "expect_type_linter",
+        "id": "rule55",
+        "description": "expect_type_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "fixed_regex_linter",
+        "id": "rule56",
+        "description": "fixed_regex_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "for_loop_index_linter",
+        "id": "rule57",
+        "description": "for_loop_index_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "function_argument_linter",
+        "id": "rule58",
+        "description": "function_argument_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "function_return_linter",
+        "id": "rule59",
+        "description": "function_return_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "if_not_else_linter",
+        "id": "rule60",
+        "description": "if_not_else_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "ifelse_censor_linter",
+        "id": "rule61",
+        "description": "ifelse_censor_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "implicit_assignment_linter",
+        "id": "rule62",
+        "description": "implicit_assignment_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "object_usage_linter",
+        "id": "rule63",
+        "description": "object_usage_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "inner_combine_linter",
+        "id": "rule64",
+        "description": "inner_combine_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "is_numeric_linter",
+        "id": "rule65",
+        "description": "is_numeric_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "keyword_quote_linter",
+        "id": "rule66",
+        "description": "keyword_quote_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "length_levels_linter",
+        "id": "rule67",
+        "description": "length_levels_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "length_test_linter",
+        "id": "rule68",
+        "description": "length_test_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "lengths_linter",
+        "id": "rule69",
+        "description": "lengths_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "library_call_linter",
+        "id": "rule70",
+        "description": "library_call_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "literal_coercion_linter",
+        "id": "rule71",
+        "description": "literal_coercion_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "matrix_apply_linter",
+        "id": "rule72",
+        "description": "matrix_apply_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "missing_argument_linter",
+        "id": "rule73",
+        "description": "missing_argument_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "missing_package_linter",
+        "id": "rule74",
+        "description": "missing_package_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "namespace_linter",
+        "id": "rule75",
+        "description": "namespace_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "nested_ifelse_linter",
+        "id": "rule76",
+        "description": "nested_ifelse_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "numeric_leading_zero_linter",
+        "id": "rule77",
+        "description": "numeric_leading_zero_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "outer_negation_linter",
+        "id": "rule78",
+        "description": "outer_negation_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "package_hooks_linter",
+        "id": "rule79",
+        "description": "package_hooks_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "paren_body_linter",
+        "id": "rule80",
+        "description": "paren_body_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "paste_linter",
+        "id": "rule81",
+        "description": "paste_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "pipe_call_linter",
+        "id": "rule82",
+        "description": "pipe_call_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "pipe_consistency_linter",
+        "id": "rule83",
+        "description": "pipe_consistency_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "quotes_linter",
+        "id": "rule84",
+        "description": "quotes_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "redundant_equals_linter",
+        "id": "rule85",
+        "description": "redundant_equals_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "redundant_ifelse_linter",
+        "id": "rule86",
+        "description": "redundant_ifelse_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "regex_subset_linter",
+        "id": "rule87",
+        "description": "regex_subset_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "repeat_linter",
+        "id": "rule88",
+        "description": "repeat_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "routine_registration_linter",
+        "id": "rule89",
+        "description": "routine_registration_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "scalar_in_linter",
+        "id": "rule90",
+        "description": "scalar_in_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "semicolon_linter",
+        "id": "rule91",
+        "description": "semicolon_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "sort_linter",
+        "id": "rule92",
+        "description": "sort_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "sprintf_linter",
+        "id": "rule93",
+        "description": "sprintf_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "string_boundary_linter",
+        "id": "rule94",
+        "description": "string_boundary_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "strings_as_factors_linter",
+        "id": "rule95",
+        "description": "strings_as_factors_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "system_file_linter",
+        "id": "rule96",
+        "description": "system_file_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unnecessary_concatenation_linter",
+        "id": "rule97",
+        "description": "unnecessary_concatenation_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unnecessary_lambda_linter",
+        "id": "rule98",
+        "description": "unnecessary_lambda_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unnecessary_nested_if_linter",
+        "id": "rule99",
+        "description": "unnecessary_nested_if_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unnecessary_placeholder_linter",
+        "id": "rule100",
+        "description": "unnecessary_placeholder_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unreachable_code_linter",
+        "id": "rule101",
+        "description": "unreachable_code_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "unused_import_linter",
+        "id": "rule102",
+        "description": "unused_import_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "vector_logic_linter",
+        "id": "rule103",
+        "description": "vector_logic_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "SECURITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "whitespace_linter",
+        "id": "rule104",
+        "description": "whitespace_linter",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    },
+    {
+        "name": "other_no_specified_in_the_table",
+        "id": "rule34",
+        "description": "other_no_specified_in_the_table",
+        "engineId": "r_engine_lintr",
+        "cleanCodeAttribute": "IDENTIFIABLE",
+        "impacts": [
+            {
+                "softwareQuality": "MAINTAINABILITY",
+                "severity": "MEDIUM"
+            }
+        ]
+    }
+]
