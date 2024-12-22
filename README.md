@@ -5,17 +5,17 @@ Bioinformatics software defect analysis：Are we there yet?
 ## 主要文件
 
 1. Bioinformatics Software
-    * C++：放置基于C/C++开发的生信软件源代码
-    * Python：放置基于Python开发的生信软件源代码
-    * R：放置基于R开发的生信软件源代码
+    * C++：基于C/C++开发的生信软件源代码
+    * Python：基于Python开发的生信软件源代码
+    * R：基于R开发的生信软件源代码
 2. Report
-    * C++：放置SonarQube导出的基于C/C++的生信软件缺陷问题及指标
-    * Python：放置SonarQube导出的基于Python的生信软件缺陷问题及指标
-    * R：放置SonarQube导出的基于R的生信软件缺陷问题及指标
+    * C++：SonarQube导出的基于C/C++的生信软件缺陷问题及指标
+    * Python：SonarQube导出的基于Python的生信软件缺陷问题及指标
+    * R：SonarQube导出的基于R的生信软件缺陷问题及指标
 3. Figure
     * 分析的结果图
 4. Code
-    * C++：插件
+    * C++：sonar-cxx-plugin-2.1.3.850.jar
     * R：sonarR包
 
 ## Usage
@@ -85,3 +85,14 @@ Bioinformatics software defect analysis：Are we there yet?
 3. 创建项目
    * 点击 Projects > Create Project
    * 输入项目名称和密钥，例如`python_project`。
+
+4. 生成令牌
+   * 点击Generate Token 并保存令牌（例如 sqa_123）。
+
+5. 扫描代码
+   * 打开本地终端并进入项目目录
+   * 运行类似以下命令启动扫描：
+      ```
+      sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
+      ```
+      注意将sonar.projectKey 替换为您的项目密钥，sonar.token 替换为您的令牌。
