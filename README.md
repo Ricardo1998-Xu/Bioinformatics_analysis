@@ -67,4 +67,21 @@ Bioinformatics software defect analysis：Are we there yet?
 
 
 ### Python-based
-基于SonarQube进行分析
+
+更多详细信息参考：
+* https://github.com/SonarSource/sonarqube
+
+1. 安装SonarQube和Sonar Scanner
+   * 前往 SonarQube 官方网站下载社区版或其他适合您需求的版本。
+   * https://www.sonarsource.com/zh/products/sonarqube/
+
+2. 启动SonarQube
+   * 进入解压目录并启动服务：
+     ```
+     cd sonarqube-<version>/bin/<your-os>
+      ./sonar.sh start
+     ```
+   * 默认 SonarQube 服务会运行在 http://localhost:9000。
+3. 创建项目
+   * 点击 Projects > Create Project
+   * 输入项目名称和密钥，例如`python_project`。
