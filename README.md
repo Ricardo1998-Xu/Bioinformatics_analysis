@@ -1,48 +1,58 @@
-# Bioinformatics analysis
+# Bioinformatics Analysis
 
-Bioinformatics software defect analysis：Are we there yet?
+**Bioinformatics Software Defect Analysis: Are we there yet?**
 
-## 主要文件说明
+## Overview
+This repository provides resources and tools for analyzing defects in bioinformatics software developed in C++, Python, and R. It includes source code, scanning methods, reports, and high-resolution figures for research purposes.
 
-1. Bioinformatics Software
-    * C++：基于C/C++开发的生信软件源代码
-    * Python：基于Python开发的生信软件源代码
-    * R：基于R开发的生信软件源代码
+---
 
-2. Code
-    * C++：C/C++的插件
-    * R：扫描R软件源代码的方法
+## Main Contents
 
-3. Figure
-    * 论文的高清图
+### 1. Bioinformatics Software
+- **C++**: Source code of bioinformatics software developed in C/C++.
+- **Python**: Source code of bioinformatics software developed in Python.
+- **R**: Source code of bioinformatics software developed in R.
 
-4. Report
-    * C++：SonarQube导出的基于C/C++的生信软件缺陷问题及指标
-    * Python：SonarQube导出的基于Python的生信软件缺陷问题及指标
-    * R：SonarQube导出的基于R的生信软件缺陷问题及指标
+### 2. Code
+- **C++**: Plugins for C/C++ analysis.
+- **R**: Methods for scanning R software source code.
 
-5. Results.xlsx: 生信软件的检测结果
+### 3. Figure
+- High-resolution figures used in the paper.
 
-6. Developer's Information.xlsx： 软件开发人员的相关信息
+### 4. Report
+- **C++**: Defect reports and metrics for C/C++ bioinformatics software exported from SonarQube.
+- **Python**: Defect reports and metrics for Python bioinformatics software exported from SonarQube.
+- **R**: Defect reports and metrics for R bioinformatics software exported from SonarQube.
+
+### 5. Results.xlsx
+- Detection results for bioinformatics software.
+
+### 6. Developer's Information.xlsx
+- Relevant information about software developers.
+
+---
 
 ## Usage
-### R-based
-更多详细信息参考：
-* https://github.com/paulospx/sonarR/tree/main
 
-1. Clone this repository or download the source code.
+### R-based Analysis
+
+More details: [sonarR](https://github.com/paulospx/sonarR/tree/main)
+
+1. Clone this repository or download the source code:
 
    ```bash
    git clone https://github.com/Ricardo1998-Xu/Bioinformatics_analysis.git
    ```
 
-2. Navigate to the project directory.
+2. Navigate to the project directory:
 
    ```bash
    cd Code/sonarR
    ```
 
-3. Install the required dependencies.
+3. Install the required dependencies:
 
    ```bash
    Rscript -e 'install.packages("data.table")'
@@ -51,100 +61,109 @@ Bioinformatics software defect analysis：Are we there yet?
    Rscript -e 'install.packages("roxygen2")'
    ```
 
-4. 在 R 控制台或 RStudio 中启动 R，并切换至sonarR目录。
+4. Start R in the terminal or RStudio and set the working directory to `sonarR`:
 
    ```R
    setwd("Code/sonarR")
    ```
-   
-5. 加载 sonarR 包。
+
+5. Load the `sonarR` package:
 
    ```R
    devtools::load_all(".")
    ```
 
-6. Run the scanner on your R project directory. The tool will scan your R code in the `Bioinformatics Software/R/cellTree` folder and generate a JSON report named `result.json`.
+6. Run the scanner on your R project directory. The tool will scan your R code in the `Bioinformatics Software/R/cellTree` folder and generate a JSON report named `result.json`:
 
    ```R
-   sonarR::sonarScan(dir="Bioinformatics Software/R/cellTree",outFile = "result.json")
+   sonarR::sonarScan(dir="Bioinformatics Software/R/cellTree", outFile="result.json")
    ```
 
-7. 通过`Code/sonarR/R/updated_result.json`文件修改`result.json`格式，使其能够被SonarQube读取。
-   * Linting Rules: 
-      -  https://lintr.r-lib.org/reference/linters.html
-   * JSON
-      - https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/
+7. Modify the `result.json` file format to be compatible with SonarQube using the file at `Code/sonarR/R/updated_result.json`.
+   - **Linting Rules**: [linters](https://lintr.r-lib.org/reference/linters.html)
+   - **JSON**: [Generic Issue Import Format](https://docs.sonarsource.com/sonarqube/latest/analyzing-source-code/importing-external-issues/generic-issue-import-format/)
 
+---
 
-### Python-based
+### Python-based Analysis
 
-更多详细信息参考：
-* https://github.com/SonarSource/sonarqube
+More details: [SonarSource SonarQube](https://github.com/SonarSource/sonarqube)
 
-1. 安装SonarQube和Sonar Scanner
-   * 前往 SonarQube 官方网站下载社区版或其他适合您需求的版本。
-   * https://www.sonarsource.com/zh/products/sonarqube/
+1. Install SonarQube and Sonar Scanner:
+   - Download the community edition or a version suitable for your needs from the [SonarQube website](https://www.sonarsource.com/products/sonarqube/).
 
-2. 启动SonarQube
-   * 进入解压目录并启动服务：
+2. Start SonarQube:
+
+   ```bash
+   cd sonarqube-<version>/bin/<your-os>
+   ./sonar.sh start
+   ```
+
+   The service will run at [http://localhost:9000](http://localhost:9000).
+
+3. Create a Project:
+   - Navigate to **Projects > Create Project**.
+   - Enter a project name and key, e.g., `python_project`.
+
+4. Generate a Token:
+   - Click **Generate Token** and save it (e.g., `sqa_123`).
+
+5. Scan the Code:
+   - Open a terminal and navigate to the project directory.
+   - Run the scanner:
+
+     ```bash
+     sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
      ```
-     cd sonarqube-<version>/bin/<your-os>
-      ./sonar.sh start
+
+     Replace `sonar.projectKey` with your project key and `sonar.token` with your token.
+
+---
+
+### C/C++-based Analysis
+
+More details: [Sonar C++ Plugin](https://github.com/SonarOpenCommunity/sonar-cxx/tree/master)
+
+1. Install SonarQube and Sonar Scanner:
+   - Download the community edition or a version suitable for your needs from the [SonarQube website](https://www.sonarsource.com/products/sonarqube/).
+
+2. Load the Plugin:
+   - Move the `Code/C++/sonar-cxx-plugin-2.1.3.850.jar` file to the `extensions/plugins/` directory in your SonarQube installation.
+
+3. Start SonarQube:
+
+   ```bash
+   cd sonarqube-<version>/bin/<your-os>
+   ./sonar.sh start
+   ```
+
+   The service will run at [http://localhost:9000](http://localhost:9000).
+
+4. Create a Project:
+   - Navigate to **Projects > Create Project**.
+   - Enter a project name and key, e.g., `project`.
+
+5. Generate a Token:
+   - Click **Generate Token** and save it (e.g., `sqa_123`).
+
+6. Scan the Code:
+   - Open a terminal and navigate to the project directory.
+   - Run the scanner:
+
+     ```bash
+     sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
      ```
-   * 默认 SonarQube 服务会运行在 http://localhost:9000。
-3. 创建项目
-   * 点击 Projects > Create Project
-   * 输入项目名称和密钥，例如`python_project`。
 
-4. 生成令牌
-   * 点击Generate Token 并保存令牌（例如 sqa_123）。
+     Replace `sonar.projectKey` with your project key and `sonar.token` with your token.
 
-5. 扫描代码
-   * 打开本地终端并进入项目目录
-   * 运行类似以下命令启动扫描：
-      ```
-      sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
-      ```
-      注意将sonar.projectKey 替换为您的项目密钥，sonar.token 替换为您的令牌。
+---
 
+## Versions Used
+- **R**: 4.4.1
+- **SonarQube**: 10.6.0.92116
+- **C/C++ Plugin**: 2.1.3.850
 
-### C/C++-based
-
-更多详细信息参考：
-* https://github.com/SonarOpenCommunity/sonar-cxx/tree/master
-
-1. 安装SonarQube和Sonar Scanner
-   * 前往 SonarQube 官方网站下载社区版或其他适合您需求的版本。
-   * https://www.sonarsource.com/zh/products/sonarqube/
-2. 加载插件
-   * 将`Code/C++/sonar-cxx-plugin-2.1.3.850.jar`文件移动至SonarQube中的`extensions/plugins/`目录下
-3. 启动SonarQube
-   * 进入解压目录并启动服务：
-     ```
-     cd sonarqube-<version>/bin/<your-os>
-      ./sonar.sh start
-     ```
-   * 默认 SonarQube 服务会运行在 http://localhost:9000。
-4. 创建项目
-   * 点击 Projects > Create Project
-   * 输入项目名称和密钥，例如`project`。
-
-5. 生成令牌
-   * 点击Generate Token 并保存令牌（例如 sqa_123）。
-
-6. 扫描代码
-   * 打开本地终端并进入项目目录
-   * 运行类似以下命令启动扫描：
-      ```
-      sonar-scanner.bat -D"sonar.projectKey=A123" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.token=sqa_123"
-      ```
-      注意将sonar.projectKey 替换为您的项目密钥，sonar.token 替换为您的令牌。
-
-
-## 所使用的版本
-* R 4.4.1
-* SonarQube 10.6.0.92116
-* c/c++ plugin 2.1.3.850
+---
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ricardo1998-Xu/Bioinformatics_analysis/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ricardo1998-Xu/Bioinformatics_analysis/blob/main/LICENSE) file for details.
