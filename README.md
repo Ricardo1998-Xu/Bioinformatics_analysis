@@ -140,3 +140,6 @@ Bioinformatics software defect analysis：Are we there yet?
 * R 4.4.1
 * SonarQube 10.6.0.92116
 * c/c++ plugin 2.1.3.850
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
