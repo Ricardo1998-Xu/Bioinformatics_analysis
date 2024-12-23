@@ -2,22 +2,27 @@
 
 Bioinformatics software defect analysis：Are we there yet?
 
-## 主要文件
+## 主要文件说明
 
 1. Bioinformatics Software
     * C++：基于C/C++开发的生信软件源代码
     * Python：基于Python开发的生信软件源代码
     * R：基于R开发的生信软件源代码
-2. Report
+
+2. Code
+    * C++：C/C++的插件
+    * R：扫描R软件源代码的方法
+
+3. Figure
+    * 论文的高清图
+
+4. Report
     * C++：SonarQube导出的基于C/C++的生信软件缺陷问题及指标
     * Python：SonarQube导出的基于Python的生信软件缺陷问题及指标
     * R：SonarQube导出的基于R的生信软件缺陷问题及指标
-3. Figure
-    * 分析的结果图
-4. Code
-    * C++：sonar-cxx-plugin-2.1.3.850.jar
-    * R：sonarR包
+
 5. Results.xlsx: 生信软件的检测结果
+
 6. Developer's Information.xlsx： 软件开发人员的相关信息
 
 ## Usage
@@ -142,4 +147,4 @@ Bioinformatics software defect analysis：Are we there yet?
 * c/c++ plugin 2.1.3.850
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Ricardo1998-Xu/Bioinformatics_analysis/blob/main/LICENSE) file for details.
