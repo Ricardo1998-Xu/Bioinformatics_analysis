@@ -1,6 +1,6 @@
 # Bioinformatics Analysis
 
-**Bioinformatics Software Defect Analysis: Are we there yet?**
+**Reaching Software Quality for Bioinformatics Applications: How Far Are We?**
 
 ## Overview
 This repository provides resources and tools for analyzing defects in bioinformatics software developed in C++, Python, and R. It includes source code, scanning methods, reports, and high-resolution figures for research purposes.
