@@ -2,12 +2,12 @@
 
 **Reaching Software Quality for Bioinformatics Applications: How Far Are We?**
 
-## Overview
+## 🚀Overview
 This repository provides resources and tools for analyzing defects in bioinformatics software developed in C++, Python, and R. It includes source code, scanning methods, reports, and high-resolution figures for research purposes.
 
 ---
 
-## Main Contents
+## 📂Main Contents
 
 ### 1. Bioinformatics Software
 - **C++**: Source code of bioinformatics software developed in C/C++.
@@ -34,9 +34,9 @@ This repository provides resources and tools for analyzing defects in bioinforma
 
 ---
 
-## Usage
+## 📊Usage
 
-### R-based Analysis
+### 💻R-based Analysis
 
 More details: [sonarR](https://github.com/paulospx/sonarR/tree/main)
 
@@ -85,7 +85,7 @@ More details: [sonarR](https://github.com/paulospx/sonarR/tree/main)
 
 ---
 
-### Python-based Analysis
+### 💻Python-based Analysis
 
 More details: [SonarSource SonarQube](https://github.com/SonarSource/sonarqube)
 
@@ -120,7 +120,7 @@ More details: [SonarSource SonarQube](https://github.com/SonarSource/sonarqube)
 
 ---
 
-### C/C++-based Analysis
+### 💻C/C++-based Analysis
 
 More details: [Sonar C++ Plugin](https://github.com/SonarOpenCommunity/sonar-cxx/tree/master)
 
@@ -158,12 +158,12 @@ More details: [Sonar C++ Plugin](https://github.com/SonarOpenCommunity/sonar-cxx
 
 ---
 
-## Versions Used
+## 📥Versions Used
 - **R**: 4.4.1
 - **SonarQube**: 10.6.0.92116
 - **C/C++ Plugin**: 2.1.3.850
 
 ---
 
-## License
+## 📜License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ricardo1998-Xu/Bioinformatics_analysis/blob/main/LICENSE) file for details.
